@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  gaId: 'UA-8594346-26', // Development id 추가됨
+  production: false,
+  mode: 'stable' // 추가
 };
 
 /*
